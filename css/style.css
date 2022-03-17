@@ -1,5 +1,6 @@
 /* google imported font */
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 
 /* body */
 body{
@@ -55,3 +56,29 @@ nav ul li a:hover{
     border-radius: 10px;
     color: white;
 }
+
+/* home Section */
+.heading{
+    padding:12%;
+}
+
+.heading h1{
+    font-size: 10rem;
+    /* font-weight: bold; */
+    font-family: 'Cookie', cursive;
+    color: rgb(236, 233, 232);
+    text-shadow: 3px 3px 3px black;
+}
+    
+/* btn 1*/
+.btn{
+    padding: 1%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: #eb0808f1;
+    color: rgb(245, 241, 231);
+    font-weight: bold;
+    margin-left: 50%;
+    text-transform: uppercase;
+}
+
