@@ -16,7 +16,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: rgba(7, 5, 5, 0.849);
+    background-color: #060404;
 }
 /* navigation bar styling */
 nav{
@@ -40,7 +40,7 @@ nav ul{
     padding: 0;
     float: right;
     display: flex;
-    margin-top: -4%;
+    margin-top: -5%;
 }
 
 nav ul li a{
@@ -97,7 +97,7 @@ nav ul li a:hover{
 }
 
 #about h1{
-    color: #6d2707;
+    color: #F6A179;
     font-family: 'Cookie', cursive;
     font-size: 4rem;
     font-weight: bold;
@@ -117,7 +117,7 @@ nav ul li a:hover{
 }
 
 span{
-    color: rgb(184, 72, 8);
+    color: #F9A06C;
     font-weight: bold;
     font-family: 'Lobster', cursive;
 }
