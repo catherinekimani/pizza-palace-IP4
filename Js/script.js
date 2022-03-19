@@ -42,7 +42,7 @@ $(document).ready(function(){
           }
 
         //   constructors
-        function Order(flavor, size, crust, topping, quantity) {
+        function Order(pizza, size, crust, toppings, pizzas) {
             this.newPizza = pizza;
             this.newSize = size;
             this.newCrust = crust;
