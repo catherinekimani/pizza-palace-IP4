@@ -66,6 +66,6 @@ $(document).ready(function(){
     prompt("Your Location");
     alert("Your pizza will be delivered. Thanks for Reaching Out to Us");
 
-    $("#myPizza").reset();
+    // $("#myPizza").reset();
     });
 });
