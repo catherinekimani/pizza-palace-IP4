@@ -101,6 +101,84 @@
         </div>
     </div>
 
+    <!-- order section -->
+    <div class="container-fluid" id="order1">
+      <div id="order">
+          <h1>Place Your  Order </h1>
+      </div>
+      <img src="/images/order.png" alt="">
+      <div class="row">
+        <div class="col-sm-5">
+          <form action="" id="myPizza">
+          <!-- pizza type -->
+          <select class="form-select" aria-label="Default select example" id="pizza">
+            <option selected>Choose Your Preffered Pizza </option>
+            <option value="pepperoni"> Pepperoni Pizza </option>
+            <option value="veggie"> Veggie Pizza </option>
+            <option value="meat"> Meat pizza</option>
+            <option value="hawaaiian"> Hawaiian Pizza </option>
+            <option value="bbq"> Bbq Chicken Pizza </option>
+            <option value="Mmrgherita"> Margherita Pizza </option>
+          </select>
+
+          <!-- size -->
+          <select class="form-select" aria-label="Default select example" id="size">
+            <option selected> Choose your preffered Pizza Size </option>
+            <option label="large" value="1200"> Large </option>
+            <option label="medium" value="900"> Medium </option>
+            <option label="regular" value="600"> Regular </option>
+          </select>
+
+          <!-- crust -->
+          <select class="form-select" aria-label="Default select example" id="crust">
+            <option selected> Choose your preffered Pizza Crust </option>
+            <option label="thin" value="100"> Thin Crust </option>
+            <option label="thick" value="250">Thick Crust </option>
+            <option label="glutten" value="250"> Glutten-freeCrust </option>
+            <option label="stuffed" value="500"> Stuffed Crust </option>
+            <option label="crispy" value="400"> Crispy </option>
+          </select>
+
+          <!-- toppings -->
+          <label for="toppings" id="toppings"> ChooseToppings </label>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="toppings"  value="80" id="mushroom">
+            <label class="form-check-label" for="mushroom">
+              Mushroom @80/=
+            </label>
+          </div>
+          <!-- onions -->
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="toppings" value="50" id="onions">
+            <label class="form-check-label" for="onions">
+              Onions @50/=
+            </label>
+          </div>
+
+          <!-- sausage -->
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="toppings" value="150" id="sausage">
+            <label class="form-check-label" for="sausage">
+              Sausage @150/=
+            </label>
+          </div>
+          <!-- Bacon-->
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="toppings" value="300" id="Bacon">
+            <label class="form-check-label" for="bacon">
+              Bacon @300/=
+            </label>
+          </div>
+          <div class="pizzaNumber">
+          <label for="number"> NumberOfPizza </label>
+          <input type="value" id="pizzas" placeholder="pizzaNumber">
+          </div>
+
+          <button type="submit" id="orderBtn"> Checkout </button>
+          </form>
+        </div>
+      </div>
+
 
 
 
