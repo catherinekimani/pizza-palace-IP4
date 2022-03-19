@@ -18,7 +18,7 @@ function send(){
 
 // Jquery form validate
 $(document).ready(function(){
-    $("#myPizza").checkout(function() {
+    $("#myPizza").submit(function() {
         // get user input
         function pizza () {
             var pizzaName = document.getElementById("pizza").value;
