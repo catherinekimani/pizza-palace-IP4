@@ -36,7 +36,7 @@ $(document).ready(function(){
             var pizzaToppings = document.getElementById("toppings").value;
             return parseInt(pizzaToppings);
           }
-          function number() {
+          function pizzas() {
             var pizzaNumber = document.getElementById("pizzas").value;
             return parseInt(pizzaNumber);
           }
@@ -66,6 +66,6 @@ $(document).ready(function(){
     prompt("Your Location");
     alert("Your pizza will be delivered. Thanks for Reaching Out to Us");
 
-    // $("#myPizza").reset();
+    $("#myPizza").reset();
     });
 });
