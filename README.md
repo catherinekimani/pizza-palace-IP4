@@ -12,7 +12,7 @@
 + [Authors Info](#author-Info)
 
 ## Description
-<p> This is a website which allows users to choose multiple pizzas of their choice and make an order online. The can also choose a topping of their preference and inserts address information for a delivery </p>
+<p> This is a website which allows users to choose multiple pizzas of their choice and make an order online.</p>
 
 ## Installation
 
